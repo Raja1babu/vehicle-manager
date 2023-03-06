@@ -1,7 +1,9 @@
 public class vehicle{
 	public static void main(String[] args) {
-		petrolEngine pE = new petrolEngine();
+		PetrolEngine pE = new PetrolEngine();
 		pE.start();
 		
+		DeselEngine dE = new DeselEngine();
+		dE.start();
 	}
 }
