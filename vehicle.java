@@ -7,5 +7,10 @@ public class vehicle{
 		DeselEngine dE = new DeselEngine();
 		dE.start();
 		dE.stop();
+		
+		ElectricEngine eE = new ElectricEngine();
+		eE.start();
+		eE.stop();
 	}
+	
 }
